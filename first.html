@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/98e2763941.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <div id="colo">
+                <nav>
+                    
+                    <h2 class="logo">Nikam</h2>
+                    
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contant">Contant</a></li>
+                        <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+           </div>
+           <div id="imgs">
+                <div class="header-text">
+                    <h1>Hi, I am Shubham<br> <span>Web Developer&Coder</span></h1>
+                </div>
+                <div class="q">
+                    <img class="aa" src="animationimg.png" alt="">
+                </div>
+           </div>
+        </div>
+    </div>
+
+    <!-- -------------ABOUT-------------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="user1.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p class="text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde blanditiis, 
+                        architecto voluptates, reprehenderit voluptate culpa laborum iure a mollitia 
+                        qui cupiditate tempore veritatis doloremque perspiciatis porro minima 
+                        fugiat itaque nam iste! Similique rerum molestiae molestias, deleniti 
+                        vitae eius sit! Nihil dolore voluptatem saepe. Fugit aliquam nulla saepe
+                        in porro magni corporis voluptas reiciendis obcaecati sint. Saepe nostrum, 
+                        harum eveniet ex debitis culpa excepturi ratione ullam reprehenderit? Est 
+                        dignissimos fugit repellat illo, ratione nobis, quasi vero non nisi 
+                        laudantium numquam accusantium, neque amet a dolor ducimus! Nostrum dicta 
+                        modi dignissimos nesciunt hic. Voluptatibus obcaecati odio ipsam quidem 
+                        quae, odit vitae sit?</p>
+                        <div class="tab-title">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Desiging Web/App Interfaces</li>
+                                <li><span>Web Developement</span><br>Web App Developement</li>
+                                <li><span>App Developement</span><br>Building Android Apps</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2021 - Current</span><br>UI/UX Design Training At Pune Institute</li>
+                                <li><span>2019 - 2021</span><br>Team Lead at StarApp LLC</li>
+                                <li><span>2017 - 2019</span><br>UI/UX Design Teaching</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2016</span><br>UI/UX Design Training at Pune Institute</li>
+                                <li><span>2015</span><br>Studay In Pune</li>
+                                <li><span>2014</span><br>Studay In Pune</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- ------------SERVICES------------  -->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Itaque commodi tempore ad reprehenderit. Fugit, aperiam. 
+                    Ratione autem eveniet sint quod illum eos quasi. Ipsum, nihil?</p>
+                    <a href="#">Leran More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Itaque commodi tempore ad reprehenderit. Fugit, aperiam. 
+                    Ratione autem eveniet sint quod illum eos quasi. Ipsum, nihil?</p>
+                    <a href="#">Leran More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>App Design</h2>
+                
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                    Itaque commodi tempore ad reprehenderit. Fugit, aperiam. 
+                    Ratione autem eveniet sint quod illum eos quasi. Ipsum, nihil?</p>
+                    <a href="#">Leran More</a>
+            </div>
+        </div>
+    </div> 
+</div>
+
+<!-- -------------PORTFOLIO-------------- -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-1.png" alt="">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Sint expedita culpa fugit quisquam quasi fuga.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-2.png" alt="">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Sint expedita culpa fugit quisquam quasi fuga.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work-3.png" alt="">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                        Sint expedita culpa fugit quisquam quasi fuga.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!-- ------------CONTACT------------- -->
+
+<div id="contant">
+    <div class="container">
+        <div class="row">
+            <div class="contant-left">
+                <h1 class="sub-title">Contant Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>shubham2003@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+91 9665409918</p>
+                <div class="social-icoes">
+                    <a href="https://www.instagram.com/shubham_nikam343?igsh=MTloaHNrZTVycTVoYw=="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <a href="my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contant-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2" onclick="openPopup()">Submit</button>
+                    <div class="popup" id="popup">
+                        <img src="404-tick.png">
+                        <h2>Thank You!</h2>
+                        <p>Your details has been successfully submitted. Thanks!</p>
+                        <button type="button" onclick="closePopup()">OK</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ shubham. Made with<i class="fa-solid fa-heart"></i> by shubham nikam</p>
+    </div>
+</div>
+
+
+<!-- -------------SCRIPT-------------- -->
+<script>
+    let popup =document.getElementById("popup");
+    function openPopup(){
+        popup.classList.add("open-popup");
+    }
+    function closePopup(){
+        popup.classList.remove("open-popup");
+    }
+</script>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+         
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right = "0";
+        }
+        function closemenu(){
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = '<https://script.google.com/macros/s/AKfycbxdCrFSeINjtwp1fNm2In8-FDtoiEAXwyhKCNhzGQ2orszpW3C16XRgFTVsnm6-MV1E/exec>'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
